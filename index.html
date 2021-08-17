@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+   
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home </a>
         </li>
@@ -16,27 +18,58 @@
        
     </ul>
 
-    <h1>Sobre o Luan</h1> <!--é o texto principal do site e só pode ter um h1!! -->
+    <h1 class="center">Sobre o Luan</h1> <!--é o texto principal do site e só pode ter um h1!! -->
     <!--<h2> sub </h2> são subtitulos -->
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat dolorem excepturi aspernatur veritatis corrupti voluptas ipsum culpa odit voluptates facilis esse dicta quis saepe recusandae in magni expedita quisquam.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto dicta magni, id eligendi repellendus beatae! Nesciunt minus, voluptatem tempora odio, magni inventore aperiam earum consequuntur deserunt itaque omnis aut.
-    </p>
+    <div class="container">
+            <div>
+                <img class="br-50 wh-300 p-30" src="assets/img/chris.jpg" alt="minha foto">
+            </div>
 
-    <img src="assets/img/chris.jpg" alt="minha foto">
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat dolorem excepturi aspernatur veritatis corrupti voluptas ipsum culpa odit voluptates facilis esse dicta quis saepe recusandae in magni expedita quisquam.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias iste qui illum sint eaque distinctio ab blanditiis delectus tempore quaerat quae voluptatem illo laborum ducimus, vel, deleniti ut, fugiat laboriosam.
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus architecto dicta magni, id eligendi repellendus beatae! Nesciunt minus, voluptatem tempora odio, magni inventore aperiam earum consequuntur deserunt itaque omnis aut.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium maiores similique inventore mollitia iusto velit vero perferendis et eveniet reprehenderit eius praesentium iure quis eos illo recusandae, accusamus est ut.
+            </p>
+        </div>
+    </div>
 
-    <h2>Todo Mundo odeia o chris:</h2>
+    <h2 class="center"> Todo mundo odeia o chris</h2>
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/fnr_Q_Q3jzQ" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        ></iframe> <!--é um pedaço de um site dentro do meu site-->
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.instagram.com/wluan_sena/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+            </a>
+            
+            <a href="https://www.facebook.com/wesleyluan.sena/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do facebook">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/wesley-luan-581318203/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+            
+        </div>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/fnr_Q_Q3jzQ" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-    ></iframe> <!--é um pedaço de um site dentro do meu site-->
+       <p class="center">
+           Todos Direitos reservados: Wesley Luan &copy;
+        </p> 
+    </footer>
+
 </body>
 </html>
